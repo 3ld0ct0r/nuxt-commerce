@@ -22,7 +22,7 @@ const selected = ref(
 </script>
 
 <template>
-  <aside class="sm:pr-4">
+  <aside data-genome-slot="category_nav" class="sm:pr-4">
     <USelectMenu
       v-model="selected"
       value-key="value"

@@ -1,5 +1,5 @@
 <template>
-  <div class="relative min-h-[600px]">
+  <div data-genome-slot="hero" class="relative min-h-[600px]">
     <div
       class="md:flex md:flex-row-reverse md:justify-center mx-auto md:min-h-[600px]"
     >

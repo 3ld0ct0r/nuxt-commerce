@@ -30,7 +30,7 @@ defineProps<{ products?: ShopifyProducts, title: string, description: string, li
     </NuxtLink>
   </div>
 
-  <div
+  <div data-genome-slot="product_grid"
     class="flex overflow-x-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] gap-4"
   >
     <LazyProductTileCard

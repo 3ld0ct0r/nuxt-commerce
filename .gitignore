@@ -24,3 +24,6 @@ logs
 
 .lighthouseci
 .data
+
+# Local Netlify folder
+.netlify

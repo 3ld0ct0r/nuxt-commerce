@@ -31,7 +31,7 @@ const { data: casualThingsCollection } = await useAsyncData('casual-things-colle
 </script>
 
 <template>
-  <div class="max-w-7xl px-6 mx-auto text-center">
+  <div data-genome-slot="campaign_media" class="max-w-7xl px-6 mx-auto text-center">
     <HomeHeroBanner />
     <NuxtLazyHydrate when-visible>
       <section class="justify-center">

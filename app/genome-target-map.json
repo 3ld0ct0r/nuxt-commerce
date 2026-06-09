@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "target_map.v1",
+  "framework": "nuxt",
+  "host": "netlify",
+  "slots": [
+    {
+      "slot": "hero",
+      "confidence": "high",
+      "selector": "[data-genome-slot=\"hero\"]",
+      "componentPath": "app/components/home/HeroBanner.vue",
+      "filePath": "app/pages/index.vue",
+      "evidence": [
+        "Repo inspector matched app/components/home/HeroBanner.vue"
+      ],
+      "operatorConfirmed": true
+    },
+    {
+      "slot": "product_grid",
+      "confidence": "high",
+      "selector": "[data-genome-slot=\"product_grid\"]",
+      "componentPath": "app/components/home/ProductCarousel.vue",
+      "evidence": [
+        "Repo inspector matched app/components/home/ProductCarousel.vue"
+      ],
+      "operatorConfirmed": true
+    },
+    {
+      "slot": "category_nav",
+      "confidence": "medium",
+      "selector": "[data-genome-slot=\"category_nav\"]",
+      "componentPath": "app/components/collection/CategorySelector.vue",
+      "evidence": [
+        "Repo inspector matched app/components/collection/CategorySelector.vue"
+      ],
+      "operatorConfirmed": true
+    },
+    {
+      "slot": "campaign_media",
+      "confidence": "medium",
+      "selector": "[data-genome-slot=\"campaign_media\"]",
+      "filePath": "app/pages/index.vue",
+      "evidence": [
+        "Repo inspector found storefront image /logo.svg",
+        "Repo inspector found storefront image /hero.png"
+      ],
+      "operatorConfirmed": true
+    },
+    {
+      "slot": "cart_summary",
+      "confidence": "medium",
+      "selector": "[data-genome-slot=\"cart_summary\"]",
+      "componentPath": "app/components/cart/LineItem.vue",
+      "evidence": [
+        "Repo inspector matched app/components/cart/LineItem.vue"
+      ],
+      "operatorConfirmed": true
+    },
+    {
+      "slot": "checkout_cta",
+      "confidence": "low",
+      "selector": "[data-genome-slot=\"checkout_cta\"]",
+      "evidence": [
+        "No checkout component evidence was detected."
+      ],
+      "operatorConfirmed": true
+    }
+  ],
+  "lowConfidenceReason": "Only operator-confirmed data-genome-slot targets are active in generated adapters.",
+  "generatedBy": "deterministic_repo_inspector",
+  "id": "ptm_prj_31c7daaa51c612f76d35fc41",
+  "workspaceId": "wrk_9aa4bf1d20914f7983ef811391199e5a",
+  "projectId": "prj_31c7daaa51c612f76d35fc41",
+  "source": "deterministic_repo_inspector",
+  "confidence": "high",
+  "active": true,
+  "createdAt": "2026-06-09T03:29:23.767Z",
+  "updatedAt": "2026-06-09T03:29:23.767Z"
+}

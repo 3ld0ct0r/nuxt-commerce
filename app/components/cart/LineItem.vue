@@ -19,7 +19,7 @@ function debouncedUpdateQuantity(newQuantity: number) {
 </script>
 
 <template>
-  <li class="my-2">
+  <li data-genome-slot="cart_summary" class="my-2">
     <div class="flex items-center justify-between">
       <div class="flex items-center max-h-[92px] w-full">
         <div class="relative">

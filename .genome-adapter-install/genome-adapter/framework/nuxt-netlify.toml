@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/.well-known/genome/self-test"
+  to = "/api/genome/self-test"
+  status = 200
+  force = true
